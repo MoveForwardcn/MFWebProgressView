@@ -20,7 +20,6 @@
 }
 - (IBAction)btnclick:(id)sender {
     MFWKWebView * wk = [MFWKWebView new];
-    wk.baseUrl = @"https://github.com/MoveForwardcn";
     [self.navigationController pushViewController:wk animated:YES];
 }
 

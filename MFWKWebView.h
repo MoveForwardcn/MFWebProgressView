@@ -9,5 +9,4 @@
 #import <UIKit/UIKit.h>
 
 @interface MFWKWebView : UIViewController
-@property (nonatomic,copy) NSString * baseUrl;
 @end
